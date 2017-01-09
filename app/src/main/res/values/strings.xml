@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MisNotas</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_new">Nuevo</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_compartir">Compartir …</string>
+    <string name="fichero_preferencias">notas</string>
+
+</resources>
