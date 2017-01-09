@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="es.danielumpierrez.simpleedit.ActPrincipal">
+    <group
+        android:id="@+id/menuGrpContent"
+        android:menuCategory="container"
+        android:visible="true">
+        <item
+            android:id="@+id/action_nuevo"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:orderInCategory="100"
+            android:title="@string/action_new" />
+        <item
+            android:id="@+id/action_guardar"
+            android:icon="@android:drawable/ic_menu_save"
+            android:orderInCategory="101"
+            android:title="@string/action_save"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_compartir"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:orderInCategory="102"
+            android:title="@string/action_compartir"
+            app:showAsAction="never" />
+
+    </group>
+    <group
+        android:id="@+id/menuGrpApp"
+        android:menuCategory="container"
+        android:orderInCategory="@android:integer/status_bar_notification_info_maxnum">
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:orderInCategory="200"
+            android:title="@string/action_settings"
+            app:showAsAction="never" />
+    </group>
+</menu>
