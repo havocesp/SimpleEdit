@@ -1,0 +1,2 @@
+# SimpleEdit
+Simple Notes Manager
